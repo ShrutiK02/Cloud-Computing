@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: studentserver-config
+data:
+  MONGO_URL: 35.197.115.51 
+  MONGO_DATABASE: studentdb
